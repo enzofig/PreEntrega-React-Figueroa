@@ -1,0 +1,34 @@
+/* ItemCount.css */
+
+.Counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.Number {
+    font-size: 1.2em;
+}
+
+.Button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Puedes ajustar estos estilos según tus preferencias */
